@@ -27,10 +27,12 @@
         <!-- Form for input countdown -->
         <div class="form">
             <form>
-                <input type="number" id="countHour" placeholder="Enter Hour" max="12" min="0">
-                <input type="number" id="countMin" placeholder="Enter Minutes" max="60" min="0">
-                <input type="number" id="countSec" placeholder="Enter Second" max="60" min="0">
+                <input type="number" id="countHour" placeholder="Enter Hour" max="12" min="0" required>
+                <input type="number" id="countMin" placeholder="Enter Minutes" max="60" min="0" required>
+                <input type="number" id="countSec" placeholder="Enter Second" max="60" min="0" required>
                 <input type="submit" id="submitBtn" value="Begin Countdown">
+                <input type="submit" id="stopBtn" value="Stop Countdown">
+                <input type="submit" id="resetBtn" value="Reset Countdown">
             </form>
         </div>
     </div>
